@@ -14,6 +14,8 @@
 		9A027D541A0093EA00AF8F52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A027D531A0093EA00AF8F52 /* Images.xcassets */; };
 		9A027D571A0093EA00AF8F52 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A027D551A0093EA00AF8F52 /* LaunchScreen.xib */; };
 		9A027D631A0093EA00AF8F52 /* ErrandsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A027D621A0093EA00AF8F52 /* ErrandsTests.swift */; };
+		9A027D711A00953B00AF8F52 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A027D701A00953B00AF8F52 /* ListTableViewController.swift */; };
+		9A027D731A00957300AF8F52 /* ErrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A027D721A00957300AF8F52 /* ErrandModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		9A027D5C1A0093EA00AF8F52 /* ErrandsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErrandsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A027D611A0093EA00AF8F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A027D621A0093EA00AF8F52 /* ErrandsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrandsTests.swift; sourceTree = "<group>"; };
+		9A027D701A00953B00AF8F52 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		9A027D721A00957300AF8F52 /* ErrandModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrandModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,11 +84,13 @@
 			isa = PBXGroup;
 			children = (
 				9A027D491A0093EA00AF8F52 /* AppDelegate.swift */,
+				9A027D701A00953B00AF8F52 /* ListTableViewController.swift */,
 				9A027D4E1A0093EA00AF8F52 /* ViewController.swift */,
 				9A027D501A0093EA00AF8F52 /* Main.storyboard */,
 				9A027D531A0093EA00AF8F52 /* Images.xcassets */,
 				9A027D551A0093EA00AF8F52 /* LaunchScreen.xib */,
 				9A027D4B1A0093EA00AF8F52 /* Errands.xcdatamodeld */,
+				9A027D721A00957300AF8F52 /* ErrandModel.swift */,
 				9A027D471A0093EA00AF8F52 /* Supporting Files */,
 			);
 			path = Errands;
@@ -216,8 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A027D4F1A0093EA00AF8F52 /* ViewController.swift in Sources */,
+				9A027D731A00957300AF8F52 /* ErrandModel.swift in Sources */,
 				9A027D4A1A0093EA00AF8F52 /* AppDelegate.swift in Sources */,
 				9A027D4D1A0093EA00AF8F52 /* Errands.xcdatamodeld in Sources */,
+				9A027D711A00953B00AF8F52 /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
